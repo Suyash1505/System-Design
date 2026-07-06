@@ -104,7 +104,7 @@ public:
 // MAIN METHOD
 int main() {
     
-    ManualCar* myManualCar = new ManualCar("Suzuki", "WagonR");
+    ManualCar* myManualCar = new ManualCar("BMW", "X5");
     myManualCar -> startEngine();
     myManualCar -> shiftGear(1); //specific to manual car
     myManualCar -> accelerate();
